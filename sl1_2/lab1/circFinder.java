@@ -1,3 +1,9 @@
+/*
+Author: Kevin Qiu
+Class: IB Computer Science 1-2 Period 3
+Last Edited: Aug. 29, 2018
+*/
+
 import java.util.Scanner;
 
 class circFinder {
