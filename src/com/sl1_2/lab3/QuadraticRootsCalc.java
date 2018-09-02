@@ -1,3 +1,4 @@
+package com.sl1_2.lab3;
 /*
 Author: Kevin Qiu
 Class: IB Computer Science 1-2 Period 3

@@ -1,3 +1,4 @@
+package com.sl1_2.lab1;
 /*
 Author: Kevin Qiu
 Class: IB Computer Science 1-2 Period 3
@@ -6,7 +7,7 @@ Last Edited: Aug. 29, 2018
 
 import java.util.Scanner;
 
-class CircFinder {
+public class CircFinder {
 	public static void main(String args[]) {
 
 		double pi = 3.14159;
