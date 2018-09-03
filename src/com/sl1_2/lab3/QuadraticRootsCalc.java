@@ -2,7 +2,7 @@ package com.sl1_2.lab3;
 /*
 Author: Kevin Qiu
 Class: IB Computer Science 1-2 Period 3
-Last Edited: Aug. 29, 2018
+Last Edited: Sep. 1, 2018
 */
 
 import java.util.Scanner;
@@ -25,7 +25,7 @@ class QuadraticRootsCalc {
         double typeTest = 0;
         String i = "i";
 
-        DecimalFormat df = new DecimalFormat("####.###");
+        DecimalFormat df = new DecimalFormat("#####.###");
 
         System.out.println("Ax^2 + Bx + C = 0");
 
