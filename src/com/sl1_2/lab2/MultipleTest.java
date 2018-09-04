@@ -21,6 +21,10 @@ class MultipleTest {
         System.out.println("Please input your second integer");
         integer2 = input.nextInt();
 
+        if (integer1 == 0 || integer2 == 0) {
+            System.out.println("you cant do that lul");
+        }
+
         if ((integer1 % integer2) == 0) {
             System.out.println("Your first integer is a multiple of your second integer.");
         } else {
