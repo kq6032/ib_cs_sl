@@ -2,7 +2,7 @@ package com.sl1_2.lab3;
 /*
 Author: Kevin Qiu
 Class: IB Computer Science 1-2 Period 3
-Last Edited: Sep. 1, 2018
+Last Edited: Sep. 6, 2018
 */
 
 import java.util.Scanner;
@@ -70,7 +70,7 @@ public class QuadraticsAndTriangles {
             root2 = (Math.sqrt(-1 * (Math.pow(coeff2, 2)
                     - (4 * coeff1 * constant)))) / (2* coeff1);
             System.out.println("The roots are imaginary.");
-            System.out.println(df.format(root1) + " + " + df.format(root2) + i + ", " + df.format(root1) + " - " + df.format(root2) + i);
+            System.out.println(df.format(root1) + " + " + df.format(root2) + i + ", " + df.format(root1) + " - " + df.format(root2) + i + "\n");
         } else {
             root1 = ((-coeff2 + Math.sqrt(Math.pow(coeff2, 2)
                     - (4 * coeff1 * constant))) / (2 * coeff1));
@@ -78,14 +78,15 @@ public class QuadraticsAndTriangles {
                     - (4 * coeff1 * constant))) / (2 * coeff1));
             System.out.println("The roots are real.");
             if (root1 == root2) {
-                System.out.println(root1);
+                System.out.println(root1 + "\n");
             } else {
-                System.out.println(df.format(root1) + ", " + df.format(root2));
+                System.out.println(df.format(root1) + ", " + df.format(root2) + "\n");
             }
         }
     }
 
     public static void triangle() {
+
         double sideA = 0;
         double sideB = 0;
         double sideC = 0;
@@ -155,7 +156,7 @@ public class QuadraticsAndTriangles {
         angleB = (Math.asin(sideB / sideC)) / Math.PI * 180;
 
         System.out.println("Side a: " + df.format(sideA) + "\nSide b: " + df.format(sideB) + "\nSide c: " + df.format(sideC));
-        System.out.println("Angle A: " + df.format(angleA) + "\nAngle B " + df.format(angleB) + "\nAngle C: " + df.format(angleC));
+        System.out.println("Angle A: " + df.format(angleA) + "\nAngle B " + df.format(angleB) + "\nAngle C: " + df.format(angleC) + "\n");
     }
 
     public static double getSideVal (Scanner input, String sideName) {
@@ -186,27 +187,35 @@ public class QuadraticsAndTriangles {
         Scanner input = new Scanner(System.in);
 
         while (true) {
-            try {
-                System.out.println("Options:");
-                System.out.println("1. Quadratic Root Finder");
-                System.out.println("2. Triangle Side Finder");
-                System.out.println("Please input option number:");
+
+            boolean loopBool = true;
+            System.out.println("Options:");
+            System.out.println("1. Quadratic Root Finder");
+            System.out.println("2. Triangle Side Finder");
+            System.out.println("3. Quit");
+            System.out.println("Please input option number:");
+
+            while (loopBool) {
+                if (input.hasNextInt()) {
+                    loopBool = false;
+                }
+
                 option = input.nextInt();
-                if (option != 1 && option != 2) {
+
+                if (option != 1 && option != 2 && option != 3) {
                     System.out.println("Please try again. That isn't an option.");
                     continue;
                 }
-                break;
-            } catch (Exception e) {
-                System.out.println("An error occurred. Please try again.");
-                input.next();
             }
-        }
 
-        if (option == 1) {
-            quadratic();
-        } else {
-            triangle();
+            if (option == 1) {
+                quadratic();
+            } else if (option == 2) {
+                triangle();
+            } else {
+                System.out.println("Bye!");
+                break;
+            }
         }
     }
 }

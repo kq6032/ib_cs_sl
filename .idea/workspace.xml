@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9735e35b-d4e2-426c-9e96-966ab82ab6f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab2/MultipleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab2/MultipleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab2/NumberSeparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab2/NumberSeparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab3/QuadraticRootsCalc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab3/TriangleSideCalc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab2/MultipleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab2/MultipleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab2/NumberSeparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab2/NumberSeparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticRootsCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticsAndTriangles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab3/TriangleSideCalc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab3/QuadraticsAndTriangles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab3/QuadraticsAndTriangles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticsAndTriangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticsAndTriangles.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,39 +41,43 @@
     <session id="-925890253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="32" />
+          <entry key="java" value="41" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="41" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5513" />
+          <entry key="java" value="12240" />
           <entry key="md" value="5" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5513" />
+          <entry key="JAVA" value="12240" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -87,10 +86,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticsAndTriangles.java">
+        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+            <state relative-caret-position="68">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +109,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>while</find>
+      <find>nextInt()</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>nextDouble()</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,14 +137,17 @@
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab2/MultipleTest.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab3/TriangleSideCalc.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticRootsCalc.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab4/SumToN.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticsAndTriangles.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab4/GradingProgram.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1270" />
-    <option name="width" value="1301" />
-    <option name="height" value="1451" />
+    <option name="x" value="1269" />
+    <option name="width" value="1302" />
+    <option name="height" value="1452" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -147,9 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,36 +175,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab3" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/kevin/Desktop/ib_cs_sl/src/com/sl1_2/lab2/BmiCalc.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536098497142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536782762690" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -216,39 +205,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuadraticsAndTriangles">
+  <component name="RunManager" selected="Application.lab4">
+    <configuration name="GradingProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab4.GradingProgram" />
+      <module name="ib_cs_sl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sl1_2.lab4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultipleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab2.MultipleTest" />
       <module name="ib_cs_sl" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sl1_2.lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberSeparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab2.NumberSeparator" />
-      <module name="ib_cs_sl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sl1_2.lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuadraticRootsCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab3.QuadraticRootsCalc" />
-      <module name="ib_cs_sl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sl1_2.lab3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,12 +245,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleSideCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab3.TriangleSideCalc" />
+    <configuration name="SumToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab4.SumToN" />
       <module name="ib_cs_sl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sl1_2.lab3.*" />
+          <option name="PATTERN" value="com.sl1_2.lab4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab4.lab4" />
+      <module name="ib_cs_sl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sl1_2.lab4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,18 +273,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MultipleTest" />
-      <item itemvalue="Application.NumberSeparator" />
-      <item itemvalue="Application.TriangleSideCalc" />
-      <item itemvalue="Application.QuadraticRootsCalc" />
       <item itemvalue="Application.QuadraticsAndTriangles" />
+      <item itemvalue="Application.SumToN" />
+      <item itemvalue="Application.GradingProgram" />
+      <item itemvalue="Application.lab4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab4" />
+        <item itemvalue="Application.GradingProgram" />
+        <item itemvalue="Application.SumToN" />
         <item itemvalue="Application.QuadraticsAndTriangles" />
         <item itemvalue="Application.MultipleTest" />
-        <item itemvalue="Application.NumberSeparator" />
-        <item itemvalue="Application.QuadraticRootsCalc" />
-        <item itemvalue="Application.TriangleSideCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -324,8 +313,8 @@
     <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20590006" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6227758" visible="true" weight="0.2269717" />
+      <window_info id="Structure" order="1" sideWeight="0.3772242" side_tool="true" visible="true" weight="0.2269717" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -333,7 +322,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45314354" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.66903913" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,13 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab2/NumberSeparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="93" lean-forward="true" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab3/TriangleSideCalc.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab2/MultipleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -449,20 +432,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab3/TriangleSideCalc.java">
+    <entry file="file://$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab3/QuadraticsAndTriangles.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab2/NumberSeparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab4/SumToN.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticsAndTriangles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+        <state relative-caret-position="3689">
+          <caret line="218" column="9" lean-forward="true" selection-start-line="218" selection-start-column="9" selection-end-line="218" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab4/GradingProgram.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
