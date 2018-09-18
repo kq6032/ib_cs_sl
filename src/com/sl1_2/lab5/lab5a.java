@@ -2,7 +2,7 @@ package com.sl1_2.lab5;
 /*
 Author: Kevin Qiu
 Class: IB Computer Science 1-2 Period 3
-Last Edited: Sep. 12, 2018
+Last Edited: Sep. 18, 2018
 */
 
 
