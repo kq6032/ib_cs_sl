@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9735e35b-d4e2-426c-9e96-966ab82ab6f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab3/QuadraticsAndTriangles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab3/QuadraticsAndTriangles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticsAndTriangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticsAndTriangles.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,22 +39,23 @@
     <session id="-925890253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.9" value="7" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="41" />
+          <entry key="java" value="42" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
@@ -64,32 +63,45 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="42" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12240" />
+          <entry key="java" value="15572" />
           <entry key="md" value="5" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12240" />
+          <entry key="JAVA" value="15572" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="4556">
+              <caret line="270" column="34" selection-start-line="270" selection-start-column="34" selection-end-line="270" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5a.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,6 +122,7 @@
     <findStrings>
       <find>while</find>
       <find>nextInt()</find>
+      <find>lcm</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -141,6 +154,8 @@
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab3/QuadraticsAndTriangles.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab4/GradingProgram.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5a.java" />
       </list>
     </option>
   </component>
@@ -157,6 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,13 +197,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/kevin/Desktop/ib_cs_sl/src/com/sl1_2/lab2/BmiCalc.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536782762690" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536972257292" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -205,39 +220,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lab4">
+  <component name="RunManager" selected="Application.lab5a">
     <configuration name="GradingProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab4.GradingProgram" />
       <module name="ib_cs_sl" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sl1_2.lab4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultipleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab2.MultipleTest" />
-      <module name="ib_cs_sl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sl1_2.lab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuadraticsAndTriangles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab3.QuadraticsAndTriangles" />
-      <module name="ib_cs_sl" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sl1_2.lab3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,20 +260,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lab5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab5.lab5" />
+      <module name="ib_cs_sl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sl1_2.lab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab5a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab5.lab5a" />
+      <module name="ib_cs_sl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sl1_2.lab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MultipleTest" />
-      <item itemvalue="Application.QuadraticsAndTriangles" />
       <item itemvalue="Application.SumToN" />
       <item itemvalue="Application.GradingProgram" />
       <item itemvalue="Application.lab4" />
+      <item itemvalue="Application.lab5" />
+      <item itemvalue="Application.lab5a" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab5a" />
         <item itemvalue="Application.lab4" />
+        <item itemvalue="Application.lab5" />
         <item itemvalue="Application.GradingProgram" />
         <item itemvalue="Application.SumToN" />
-        <item itemvalue="Application.QuadraticsAndTriangles" />
-        <item itemvalue="Application.MultipleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -313,8 +328,8 @@
     <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6227758" visible="true" weight="0.2269717" />
-      <window_info id="Structure" order="1" sideWeight="0.3772242" side_tool="true" visible="true" weight="0.2269717" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61806655" visible="true" weight="0.23600242" />
+      <window_info id="Structure" order="1" sideWeight="0.38193345" side_tool="true" visible="true" weight="0.23600242" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -322,7 +337,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.66903913" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25148278" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,8 +468,18 @@
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab4/GradingProgram.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="4556">
+          <caret line="270" column="34" selection-start-line="270" selection-start-column="34" selection-end-line="270" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
