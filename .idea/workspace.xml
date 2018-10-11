@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9735e35b-d4e2-426c-9e96-966ab82ab6f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/challenge1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/utility/utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab6/lab6a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/Tester.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sl1_2/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/Tester.java" afterDir="false" />
@@ -42,19 +41,19 @@
     <session id="-925890253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="10" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="6" />
-          <entry key="project.open.time.9" value="10" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.open.time.9" value="12" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,7 +61,7 @@
           <entry key="Storage" value="1" />
           <entry key="class" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="54" />
+          <entry key="java" value="57" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
@@ -70,33 +69,45 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="57" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="26943" />
+          <entry key="java" value="28782" />
           <entry key="md" value="5" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26943" />
+          <entry key="JAVA" value="28782" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ib_cs_sl" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab6/lab6a.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -104,26 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4998">
-              <caret line="294" column="9" selection-start-line="294" selection-start-column="9" selection-end-line="294" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/utility/utilities.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Challenge1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+            <state relative-caret-position="11">
+              <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
             </state>
           </provider>
         </entry>
@@ -147,6 +140,8 @@
       <find>array</find>
       <find>challenge</find>
       <find>parseint</find>
+      <find>arraylist</find>
+      <find>prime</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -183,9 +178,11 @@
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/Storage" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/challenge1.java" />
-        <option value="$PROJECT_DIR$/src/com/sl1_2/Tester.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/Challenge1.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/utility/utilities.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/Tester.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab6a/lab6a.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab6/lab6a.java" />
       </list>
     </option>
   </component>
@@ -203,9 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,29 +218,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/kevin/Desktop/ib_cs_sl/src/com/sl1_2/lab5/lab5b.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538509784892" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539289653950" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -265,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Challenge1">
+  <component name="RunManager" selected="Application.lab6a">
     <configuration name="Challenge1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sl1_2.Challenge1" />
       <module name="ib_cs_sl" />
@@ -318,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab5b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab5.lab5b" />
+    <configuration name="lab6a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab6.lab6a" />
       <module name="ib_cs_sl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sl1_2.lab5.*" />
+          <option name="PATTERN" value="com.sl1_2.lab6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,18 +316,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.lab5a" />
-      <item itemvalue="Application.lab5b" />
       <item itemvalue="Application.Tester" />
       <item itemvalue="Application.challenge1" />
       <item itemvalue="Application.Challenge1" />
+      <item itemvalue="Application.lab6a" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Challenge1" />
+        <item itemvalue="Application.lab6a" />
         <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.Challenge1" />
         <item itemvalue="Application.challenge1" />
         <item itemvalue="Application.lab5a" />
-        <item itemvalue="Application.lab5b" />
       </list>
     </recent_temporary>
   </component>
@@ -373,16 +356,16 @@
     <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61437124" visible="true" weight="0.21312462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.55041516" visible="true" weight="0.22095123" />
       <window_info id="Structure" order="1" sideWeight="0.38562873" side_tool="true" weight="0.5043371" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.4495848" side_tool="true" weight="0.217941" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47568208" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29537368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,31 +516,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4998">
-          <caret line="294" column="9" selection-start-line="294" selection-start-column="9" selection-end-line="294" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/utility/utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Challenge1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+        <state relative-caret-position="476">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Tester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab6/lab6a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
