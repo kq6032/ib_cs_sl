@@ -2,38 +2,68 @@ package com.sl1_2.lab5;
 /*
 Author: Kevin Qiu
 Class: IB Computer Science 1-2 Period 3
-Last Edited: Sep. 24, 2018
+Last Edited: Oct. 16, 2018
 */
 
 import java.util.*;
 
 public class lab5b {
 
-    public static void guessingGame(Scanner in) {
+    /**
+     * basicIntInput
+     * method for asking for a single integer input from user
+     * @param message message to prompt user for response
+     * @param in
+     * @return
+     */
+    public static int basicIntInput(String message, Scanner in) {
+        int input = 0;
+        boolean run = true;
 
+        while (run) {
+            System.out.println(message);
+
+            //ensures that the input is valid
+            while (!in.hasNextInt()) {
+                System.out.println("That input is invalid. Input something else.");
+                in.next();
+            }
+
+            input = in.nextInt();
+
+            //if the input is a valid positive integer, the loop stops
+            if (input >= 0) {
+                run = false;
+            }
+        }
+
+        return input;
+    }
+
+    /**
+     * guessingGame
+     * number guessing game between 1 and 1000
+     * @param in
+     */
+    public static void guessingGame(Scanner in) {
         Random rand = new Random();
+
         int randomNum = rand.nextInt(1000);
         int guessCount = 0;
-        int guess = 0;
+        int guess;
+        boolean run = true;
 
-        while (true) {
-            System.out.printf("Guess a number between 0 and 1000 (not including 1000)!\nYour current number of guesses is %d\n", guessCount);
-            try {
-                guess = in.nextInt();
-                if (guess < 0 || guess >= 1000) {
-                    System.out.println("That isn't a valid input. Please try again.");
-                    continue;
-                }
-                guessCount++;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                in.next();
-                continue;
-            }
+        System.out.println("Guess a number between 0 and 1000 (not including 1000)!");
+
+        //guessing game code, runs until the number is guessed
+        while (run) {
+            guess = basicIntInput("Your current " +
+                    "number of guesses is " + guessCount + "\n", in);
+            guessCount++;
 
             if (guess == randomNum) {
                 System.out.println("That's the right number!");
-                break;
+                run = false;
             } else if (guess > randomNum) {
                 System.out.println("Your guess is too high!");
             } else if (guess < randomNum) {
@@ -44,71 +74,85 @@ public class lab5b {
         System.out.printf("\nYour total number of guesses is %d\n", guessCount);
     }
 
-    public static void guessingGameChallenge(Scanner in) {
+    /**
+     * strCompare
+     * compares two strings that are given as parameters
+     * @param str1 first string to compare
+     * @param str2 second string to compare
+     * @return
+     */
+    public static int strCompare(String str1, String str2) {
+        int numSame = 0;
 
+        //looks for the amount of characters that are the same in the two strings
+        for (int i = 0; i < str1.length(); i++) {
+            if (str1.charAt(i) == str2.charAt(i)) {
+                if ((str1.charAt(i) == 0) && (i == 0)) {
+                    //do nothing
+                } else {
+                    numSame++;
+                }
+            }
+        }
+
+        return numSame;
+    }
+
+    /**
+     * guessingGameChallenge
+     * challenge version of number guessing game that tells correct digits in guess
+     * @param in
+     */
+    public static void guessingGameChallenge(Scanner in) {
         Random rand = new Random();
-        String randomNum = Integer.toString(rand.nextInt(1000));
+
+        String randomNum;
         String guessString;
         int guessCount = 0;
-        int guess = 0;
-        int digitsCorrect = 0;
+        int guess;
+        int digitsCorrect;
+        boolean run = true;
+
+        randomNum = Integer.toString(rand.nextInt(1000));
 
         while (randomNum.length() < 3) { randomNum = "0" + randomNum; }
 
-        while (true) {
-            System.out.printf("\nGuess a number between 0 and 1000 (not including 1000)!\nYour current number of guesses is %d\n", guessCount);
-            try {
-                guess = in.nextInt();
-                if (guess < 0 || guess >= 1000) {
-                    System.out.println("That isn't a valid input. Please try again.");
-                    continue;
-                }
-                guessCount++;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                in.next();
-                continue;
-            }
-
+        //main guessing game code
+        while (run) {
+            guess = basicIntInput("Your current number of guesses is " + guessCount + "\n", in);
+            guessCount++;
+            //turns guess into a string for easier comparing
             guessString = Integer.toString(guess);
+
+            //prepends 0 to guess string until same length as target number to simplify comparing
             while (guessString.length() < 3) { guessString = "0" + guessString; }
 
             if (Objects.equals(guessString, randomNum)) {
                 System.out.println("That's the right number!");
-                break;
-            }
-            digitsCorrect = 0;
-            if (guessString.charAt(0) == randomNum.charAt(0)) {
-                digitsCorrect++;
-            } if (guessString.charAt(1) == randomNum.charAt(1)) {
-                digitsCorrect++;
-            } if (guessString.charAt(2) == randomNum.charAt(2)) {
-                digitsCorrect++;
+                run = false;
             }
 
+            //compares the characters in the strings to each other to determine how many are correct
+            digitsCorrect = strCompare(guessString, randomNum);
             System.out.printf("\nYou had %d digits correct in your guess.", digitsCorrect);
         }
         System.out.printf("\nYour total number of guesses is %d\n", guessCount);
     }
 
+    /**
+     * linedStairsGen
+     * generates a stair shaped pattern formed out of numbers
+     * @param in
+     */
     public static void linedStairsGen(Scanner in) {
-
-        int inputNum = 0;
+        int inputNum;
+        int lineNum;
         int count = 1;
 
-        while (true) {
-            System.out.println("Please input a positive integer.");
-            try {
-                inputNum = in.nextInt();
-                break;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                in.next();
-                continue;
-            }
-        }
+        //asking for number of lines to draw from user
+        inputNum = basicIntInput("Please input a positive integer.", in);
+        lineNum = inputNum;
 
-        int lineNum = inputNum;
         while (lineNum > 0) {
             for (int i = 0; i < count; i++) {
                 System.out.print(lineNum + "    ");
@@ -119,37 +163,21 @@ public class lab5b {
         }
     }
 
+    /**
+     * drawRect
+     * creates a rectangle out of asterisks using width and heights inputted by user
+     * @param in
+     */
     public static void drawRect(Scanner in) {
-
-        int width = 0;
-        int height = 0;
+        int width;
+        int height;
 
         System.out.println("Welcome to the rectangle drawer!\n");
+        //asking for width and height of rectangle from the users
+        width = basicIntInput("Please input desired width.", in);
+        height = basicIntInput("Please input desired height.", in);
 
-        while (true) {
-            System.out.println("Please input the width of the rectangle");
-            try {
-                width = in.nextInt();
-                break;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                in.next();
-                continue;
-            }
-        }
-
-        while (true) {
-            System.out.println("Please input the height of the rectangle.");
-            try {
-                height = in.nextInt();
-                break;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                in.next();
-                continue;
-            }
-        }
-
+        //drawing the rectangle, heightLp and widthLp are used instead of i and j for clarification
         for (int heightLp = 1; heightLp <= height; heightLp++) {
             for (int widthLp = 1; widthLp <= width; widthLp++) {
                 if (heightLp == 1 || heightLp == height || widthLp == 1 || widthLp == width)  {
@@ -162,26 +190,21 @@ public class lab5b {
         }
     }
 
+    /**
+     * factorialTable
+     * generates a table of factorials up to number determined by user
+     * @param in
+     */
     public static void factorialTable(Scanner in) {
-
-        int startNum = 0;
+        int startNum;
+        int factorial;
 
         System.out.println("Welcome to the factorial table generator!");
-
-        while (true) {
-            System.out.println("Please input a positive integer.");
-            try {
-                startNum = in.nextInt();
-                break;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                in.next();
-                continue;
-            }
-        }
-
-        int factorial;
+        //prompts user for number of desired lines
+        startNum = basicIntInput("Please input desired number of factorials.", in);
         System.out.println("0! = 1");
+
+        //this loop prints out the equation and calculates the factorial of the inputted number
         for (int i = 1; i <= startNum; i++) {
             factorial = 1;
             System.out.printf("%d! = ", i);
@@ -197,100 +220,76 @@ public class lab5b {
         }
     }
 
+    /**
+     * primeGen
+     * generates the first 1000 prime numbers and prints them out
+     * @param in
+     */
     public static void primeGen(Scanner in) {
-
-        int genNum = 0;
+        int[] primeArray = new int[1000];
         int currentNum = 3;
-        int counter = 0;
         boolean isPrime;
-        ArrayList<Integer> primes = new ArrayList<>();
 
-        System.out.println("Welcome to the prime number generator.\n ");
-        while (true) {
-            System.out.println("Please input the number of primes you want to generate.");
-            try {
-                genNum = in.nextInt();
-                break;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                in.next();
-                continue;
-            }
-        }
+        primeArray[0] = 2;
 
-        System.out.print("2 ");
-        primes.add(2);
-        while (primes.size() < genNum) {
+        //loop for testing primes
+        for (int i = 1; i < primeArray.length; i++) {
+            isPrime = true;
 
-            isPrime = false;
-            for (int j = 0; j < primes.size(); j++) {
-                if (currentNum % primes.get(j) == 0) {
+            //tests the current number against the previously generated primes
+            for (int j = 0; j < i; j++) {
+                if (currentNum % primeArray[j] == 0) {
                     isPrime = false;
-                    break;
-                } else {
-                    isPrime = true;
                 }
             }
 
             if (isPrime) {
-                System.out.printf("%d ", currentNum);
-                primes.add(currentNum);
-                counter++;
-                if (counter == 10) {
-                    counter = 0;
-                    System.out.println();
-                }
+                primeArray[i] = currentNum;
+            } else {
+                i--;
+                currentNum += 2;
+                continue;
             }
-            currentNum += 2;
         }
-        System.out.println();
+
+        for (int j : primeArray) {
+            System.out.println(j);
+        }
     }
 
+    /**
+     * main
+     * asks user which program to run
+     * @param args
+     */
     public static void main(String args[]) {
-
-        int option = 0;
         Scanner in = new Scanner(System.in);
 
-        while (true) {
-            while (true) {
-                System.out.println("Please input an option:");
-                System.out.println("1. Number Guessing Game");
-                System.out.println("2. Number Guessing Game (Challenge)");
-                System.out.println("3. Line Stairs Generator");
-                System.out.println("4. Draw a Rectangle");
-                System.out.println("5. Factorial Table Generator");
-                System.out.println("6. Prime Number Generator");
-                System.out.println("7. Exit");
+        int option;
+        boolean run = true;
 
-                try {
-                    option = in.nextInt();
-                    if (option < 1 || option > 7) {
-                        System.out.println("That isn't a valid option. Please try again.");
-                        continue;
-                    }
+        //main loop asking which program to run
+        while (run) {
+            option = basicIntInput("Please input an option:\n1. Number Guessing Game" +
+                    "\n2. Number Guessing Game (Challenge)\n3. Line Stairs Generator" +
+                    "\n4. Draw a Rectangle\n5. Factorial Table Generator\n6. Prime Number Generator\n7. Exit", in);
+
+            switch (option) {
+                case 1: guessingGame(in);
                     break;
-                } catch (Exception e) {
-                    System.out.println("That isn't a valid option. Please try again.");
-                    in.next();
-                    continue;
-                }
-            }
-
-            if (option == 1) {
-                guessingGame(in);
-            } else if (option == 2) {
-                guessingGameChallenge(in);
-            } else if (option == 3) {
-                linedStairsGen(in);
-            } else if (option == 4) {
-                drawRect(in);
-            } else if (option == 5) {
-                factorialTable(in);
-            } else if (option == 6) {
-                primeGen(in);
-            } else {
-                System.out.println("Goodbye!");
-                break;
+                case 2: guessingGameChallenge(in);
+                    break;
+                case 3: linedStairsGen(in);
+                    break;
+                case 4: drawRect(in);
+                    break;
+                case 5: factorialTable(in);
+                    break;
+                case 6: primeGen(in);
+                    break;
+                default: System.out.println("Goodbye!");
+                    in.close();
+                    run = false;
             }
         }
     }

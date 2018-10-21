@@ -5,7 +5,6 @@ package com.sl1_2;
 public class Challenge1 {
 
     static int attemptNum =  0;
-
     static final int[] NUMBER_LIST = new int[]{1, 2, 3, 4, 5, 6, 7, 8 , 9, 10};
 
     public static boolean isDivisible(int num, int place) {

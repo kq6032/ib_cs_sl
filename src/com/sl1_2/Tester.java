@@ -1,6 +1,6 @@
 package com.sl1_2;
 
-import java.util.Scanner;
+import java.io.IOException;
 
 /**
  * Tester File - All things in this file are temporary.
@@ -8,14 +8,9 @@ import java.util.Scanner;
 
 public class Tester {
 
-    public static void main (String args[]) {
-        Scanner in = new Scanner(System.in);
-        String delims = "[,\\s]+";
-        String line = in.nextLine();
+    public static void main (String args[]) throws IOException {
+        int hi = 01010101;
 
-        String[] splitBois = line.split(delims);
-        for(int i = 0; i < splitBois.length; i++) {
-            System.out.println(splitBois[i]);
-        }
+        System.out.print(hi);
     }
 }

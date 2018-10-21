@@ -2,7 +2,7 @@ package com.sl1_2.lab4;
 /*
 Author: Kevin Qiu
 Class: IB Computer Science 1-2 Period 3
-Last Edited: Sep. 10, 2018
+Last Edited: Oct. 18, 2018
 */
 
 import java.text.DecimalFormat;
@@ -11,284 +11,284 @@ import java.util.Scanner;
 
 public class lab4 {
 
-    public static void sumToN(Scanner input) {
-        int number = 0;
-        int sum = 0;
-        boolean unfinished = true;
+    /**
+     * basicIntInput
+     * method for asking for a single integer input from user
+     * @param message message to prompt user for response
+     * @param in
+     * @return the integer input of the user
+     */
+    public static int basicIntInput(String message, Scanner in) {
+        int input = 0;
+        boolean run = true;
 
-        while (true) {
-            while (true) {
-                try {
-                    System.out.println("Please input a positive integer (natural number) to find the sum of the numbers preceding it. Input -1 to quit.");
-                    number = input.nextInt();
-                    if (number <= 0 && number != -1) {
-                        System.out.println("That isn't a valid input. Please try again.");
-                        continue;
-                    }
-                    break;
-                } catch (Exception e) {
-                    System.out.println("Something wrong happened. Please try again.");
-                    input.next();
-                }
+        while (run) {
+            System.out.println(message);
+
+            //ensures that the input is valid
+            while (!in.hasNextInt()) {
+                System.out.println("That input is invalid. Input something else.");
+                in.next();
             }
 
-            if (number == -1) {
-                break;
+            input = in.nextInt();
+
+            //if the input is a valid positive integer, the loop stops
+            if (input >= 0) {
+                run = false;
+            }
+        }
+
+        return input;
+    }
+
+    /**
+     * basicDoubleInput
+     * method for asking for a single double input from user
+     * @param message message to prompt user for response
+     * @param in
+     * @return the double input of the user
+     */
+    public static double basicDoubleInput(String message, Scanner in) {
+        double input = 0;
+        boolean run = true;
+
+        while (run) {
+            System.out.println(message);
+
+            //ensures that the input is valid
+            while (!in.hasNextDouble()) {
+                System.out.println("That input is invalid. Input something else.");
+                in.next();
             }
 
+            input = in.nextDouble();
+
+            //if the input is a valid positive integer, the loop stops
+            if (input >= 1 || input < 1) {
+                run = false;
+            }
+        }
+
+        return input;
+    }
+
+    /**
+     * sumToN
+     * adds together numbers preceding the inputted number
+     * @param in
+     */
+    public static void sumToN(Scanner in) {
+        int number;
+        int sum;
+        boolean run = true;
+
+        while (run) {
             sum = 0;
+            //asks user for input for the number they want
+            number = basicIntInput("Please input a positive integer (natural number) to find the sum of the " +
+                                    "numbers preceding it. Input 0 to quit.", in);
 
-            while (number > 0) {
-                if (number > 1) {
-                    System.out.print(number + " + ");
-                } else {
-                    System.out.print(number + " = ");
+            if (number <= 0) {
+                run = false;
+            } else {
+
+                //prints out numbers being added and adds the numbers to the sum
+                while (number > 0) {
+                    if (number > 1) {
+                        System.out.print(number + " + ");
+                    } else {
+                        System.out.print(number + " = ");
+                    }
+                    sum += number;
+                    number -= 1;
                 }
-                sum += number;
-                number -= 1;
-            }
 
-            System.out.print(sum + "\n");
+                System.out.print(sum + "\n");
+            }
         }
     }
 
-    public static void gradingProgram(Scanner input) {
-        double total = 0;
-        double currentScore = 0;
-        double sum = 0;
-        int countA = 0;
-        int countB = 0;
-        int countC = 0;
-        int countD = 0;
-        int countF = 0;
+    /**
+     * gradeLetterCalc
+     * a method for determining the letter grade of a provided score in the form of an integer where
+     * 0 = A, 1 = B, 2 = C, 3 = D, 4 = F
+     * @param gradeCount array of grades recorded in grading program
+     * @param score the score decide the letter grade of
+     * @param includeInCount whether to include the letter grade in the array of all grades
+     * @return returns an integer between 0 and 4 (inclusive), which correspond with grade letters in the gradeNames
+     *         array in the gradingProgram method
+     */
+    public static int gradeLetterCalc(int[] gradeCount, double score, boolean includeInCount) {
+        int number;
 
-        ArrayList<Double> scores = new ArrayList<>();
+        //upper bounds aren't needed as the prior if statements already are effectively upper bounds
+        if (score >= 90) {
+            number = 0;
+        } else if (score >= 80) {
+            number = 1;
+        } else if (score >= 70) {
+            number = 2;
+        } else if (score >= 60) {
+            number = 3;
+        } else {
+            number = 4;
+        }
+
+        if (includeInCount) {
+            gradeCount[number]++;
+        }
+
+        return number;
+    }
+
+    /**
+     * gradingProgram
+     * asks user for grades and calculates scores, number of each letter grade,
+     * @param in
+     */
+    public static void gradingProgram(Scanner in) {
+        //allows for formatting of doubles,
         DecimalFormat df = new DecimalFormat("#####.###");
 
-        while (true) {
-            try {
-                System.out.println("Please input the total number of points in the test.");
-                total = input.nextDouble();
-                if (total <= 0) {
-                    System.out.println("Input a number greater than 0. Please try again.");
-                    continue;
-                }
-                break;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                input.next();
-            }
-        }
+        //gradeNames and gradCount arrays are for recording the number of each grade
+        String[] gradeNames = new String[]{"A", "B", "C", "D", "F"};
+        int[] gradeCount = new int[5];
+        double totalScore, currentScore;
+        double scoreCount = 0;
+        double sum = 0;
+        boolean run = true;
 
-        while (true) {
-            while (true) {
-                try {
-                    System.out.println("Please input a score. Input -1 to stop.");
-                    currentScore = input.nextDouble();
-                    if (currentScore <= 0 && currentScore != -1) {
-                        System.out.println("Input a number greater than 0. Please try again.");
-                        continue;
-                    }
-                    break;
-                } catch (Exception e) {
-                    System.out.println("Something went wrong. Please try again.");
-                    input.next();
-                }
-            }
+        totalScore = basicDoubleInput("Please input the total number of points in the test.", in);
 
-            if (currentScore == -1) {
-                break;
-            }
-            scores.add(currentScore);
-        }
+        while (run) {
+            currentScore = basicDoubleInput("Please input a score. Input a negative number to quit.", in);
 
-        sum = 0;
-
-        for (int i = 0; i < scores.size(); i++) {
-            sum += scores.get(i);
-        }
-
-        System.out.println("\nThe average score of the class was " + df.format(sum / scores.size()) + " points");
-        System.out.println("The average percentage of the class was " + df.format(sum / scores.size() / total * 100) + "% and the grade is ");
-
-        if ((sum / scores.size() / total * 100) >= 90) {
-            System.out.print("an A.\n");
-        } else if ((sum / scores.size() / total * 100) >= 80 && (sum / scores.size() / total * 100) < 90) {
-            System.out.print("a B.\n");
-        } else if ((sum / scores.size() / total * 100) >= 70 && (sum / scores.size() / total * 100) < 80) {
-            System.out.print("a C.\n");
-        } else if ((sum / scores.size() / total * 100) >= 80 && (sum / scores.size() / total * 100) < 90) {
-            System.out.print("a D.\n");
-        } else {
-            System.out.print("an F.\n");
-        }
-
-        for (double score : scores) {
-            double grade = (score / total * 100);
-            if (grade >= 90) {
-                countA++;
-            } else if (grade < 90 && grade >= 80) {
-                countB++;
-            } else if (grade < 80 && grade >= 70) {
-                countC++;
-            } else if (grade < 70 && grade >= 60) {
-                countD++;
+            if (currentScore < 0) {
+                run = false;
             } else {
-                countF++;
+                sum += currentScore;
+                scoreCount++;
+                gradeLetterCalc(gradeCount, currentScore / totalScore * 100, true);
             }
         }
 
-        System.out.println("Amount per Grade:");
-        System.out.println("A: " + countA + "\nB: " + countB + "\nC: " + countC + "\nD: " + countD + "\nF: " + countF);
+        System.out.println("\nThe average score of the class was " + df.format(sum / scoreCount) + " points" +
+            "\nThe average percentage of the class was " + df.format(sum / scoreCount / totalScore * 100) +
+            "% and the grade is " + gradeNames[gradeLetterCalc(gradeCount, sum / scoreCount, false)]
+            + ".\nAmount per Grade:");
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println(gradeNames[i] + ": " + gradeCount[i]);
+        }
     }
 
-    public static void reciprocalAdder(Scanner input) {
+    /**
+     * reciprocalAdder
+     * adds together the reciprocals of ten or less numbers provided by user
+     * @param in
+     */
+    public static void reciprocalAdder(Scanner in) {
+        double currentNumber;
         double sum = 0;
-        double currentNumber = 0;
-        int i = 0;
-        int exitConfirm = 0;
-
         //Stuff for the challenge
         double multiple = 1;
         double numerator = 0;
-        ArrayList<Double> numbers = new ArrayList<>();
+        double[] numbers = new double[10];
+        //used to keep track of number of numbers entered into numbers array
+        int numberAmt = 0;
+        int i = 1;
+        boolean run = true;
 
-        while (i < 10) {
-            try {
-                System.out.println("Current sum: " + sum);
-                System.out.println("Current number: " + (i + 1));
-                System.out.println("Please input a number. Its reciprocal will be added to the running sum.");
-                System.out.println("Input 0 to automatically stop. Otherwise, it will ask for " + (9 - i) + " more numbers.");
-                currentNumber = input.nextDouble();
-                if (currentNumber == 0) {
-                    while (true) {
-                        try {
-                            System.out.println("Are you sure you want to exit?\n1. Yes\n2. No");
-                            exitConfirm = input.nextInt();
-                            if (exitConfirm == 1) {
-                                break;
-                            } else if (exitConfirm == 2) {
-                                break;
-                            } else {
-                                continue;
-                            }
-                        } catch (Exception e) {
-                            System.out.println("That isn't a valid input.");
-                            input.next();
-                        }
-                    }
-                    if (exitConfirm == 1) {
-                        break;
-                    } else {
-                        continue;
-                    }
-                } else {
-                    numbers.add(currentNumber);
-                    sum += 1 / currentNumber;
-                    multiple *= currentNumber;
-                    i++;
-                }
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                input.next();
+        //loop asks for user input and finds sum of added reciprocals
+        while (run) {
+            if (i == 10) { run = false; }
+
+            currentNumber = basicDoubleInput("Current sum: " + sum + "\nCurrent number: " + i +
+                    "\nPlease input a number. Its reciprocal will be added to the running sum. " +
+                    "Input 0 to quit.", in);
+
+            if (currentNumber == 0) { run = false; } else {
+                sum += 1 / currentNumber;
+                multiple *= currentNumber;
+                numbers[i - 1] = currentNumber;
+                numberAmt++;
+                i++;
             }
         }
 
-        for (int j = 0; j < 10; j++) {
-            numerator += multiple / numbers.get(j);
+        for (int j = 0; j < numberAmt - 1; j++) {
+            numerator += multiple / numbers[j];
         }
 
-        System.out.println("Final Sum: " + sum);
-        System.out.println("Final Sum (Fraction)" + numerator + " / " + multiple);
+        System.out.println("Final Sum: " + sum + "\nFinal Sum (Fraction): " + numerator + " / " + multiple + "\n");
     }
 
-    public static void lcm_gcd(Scanner input) {
-        int num1 = 0;
-        int num2 = 0;
+    /**
+     * lcm_gcd
+     * finds the least common multiple and greatest common denominator of two inputted integers
+     * @param in
+     */
+    public static void lcm_gcd(Scanner in) {
+        //the numbers inputted by the user.
+        int num1, num2;
+        //the numbers where the lcm and gcd will be stored
+        int lcm, gcd;
+        boolean run = true;
 
-        int lcm = 0;
-        int gcd = 0;
-
-        while (true) {
-            try {
-                System.out.println("Please input the first number.");
-                num1 = Math.abs(input.nextInt());
-                break;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                input.next();
-            }
-        }
-
-        while (true) {
-            try {
-                System.out.println("Please input the second number.");
-                num2 = Math.abs(input.nextInt());
-                break;
-            } catch (Exception e) {
-                System.out.println("Something went wrong. Please try again.");
-                input.next();
-            }
-        }
+        //gets input from the user
+        num1 = Math.abs(basicIntInput("Please input the first number.", in));
+        num2 = Math.abs(basicIntInput("Please input the second number.", in));
 
         if (num1 != num2) {
+            //lcm starts off as the smaller number
             lcm = (num1 > num2) ? num2 : num1;
-            while (true) {
-                if (lcm % num1 == 0 && lcm % num2 == 0) {
-                    break;
-                }
-                lcm++;
+
+            //tests whether the number is divisible by both
+            while (run) {
+                if (lcm % num1 == 0 && lcm % num2 == 0) { run = false; } else { lcm++; }
             }
+
+            //gcd is calculated using a special equation that uses the lcm
             gcd = (num1 * num2) / lcm;
+
+
         } else {
             lcm = num1;
             gcd = num1;
         }
 
-        System.out.println("The least common multiple is " + lcm);
-        System.out.println("The greatest common denominator is " + gcd);
-
+        System.out.println("The least common multiple is " + lcm + "\nThe greatest common denominator is " + gcd);
     }
 
+    /**
+     * main
+     * main method which runs the other programs
+     * @param args
+     */
     public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+
         int option = 0;
+        boolean run = true;
 
-        Scanner input = new Scanner(System.in);
+        while (run) {
+            option = basicIntInput("Options:\n1. Sum of preceding numbers of number\n2. Grading Program" +
+                    "\n3. Reciprocal Adder\n4. Least Common Multiple / Greatest Common Divisor\n5. Quit" +
+                    "\nPlease input option number:", in);
 
-        while (true) {
-
-            boolean loopBool = true;
-            System.out.println("\nOptions:");
-            System.out.println("1. Sum of preceding numbers of number");
-            System.out.println("2. Grading Program");
-            System.out.println("3. Reciprocal Adder");
-            System.out.println("4. Least Common Multiple / Greatest Common Divisor");
-            System.out.println("5. Quit");
-            System.out.println("Please input option number:");
-
-            while (loopBool) {
-                if (input.hasNextInt()) {
-                    loopBool = false;
-                }
-
-                option = input.nextInt();
-
-                if (option != 1 && option != 2 && option != 3 && option != 4 && option != 5) {
-                    System.out.println("Please try again. That isn't an option.");
-                }
-            }
-
-            if (option == 1) {
-                sumToN(input);
-            } else if (option == 2) {
-                gradingProgram(input);
-            } else if (option == 3) {
-                reciprocalAdder(input);
-            } else if (option == 4) {
-                lcm_gcd(input);
-            } else {
-                System.out.println("Bye!");
-                break;
+            switch (option) {
+                case 1: sumToN(in);
+                    break;
+                case 2: gradingProgram(in);
+                    break;
+                case 3: reciprocalAdder(in);
+                    break;
+                case 4: lcm_gcd(in);
+                    break;
+                default: in.close();
+                    System.out.println("Goodbye!");
+                    run = false;
             }
         }
     }

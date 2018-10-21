@@ -4,22 +4,28 @@ import java.util.Scanner;
 
 public class utilities {
 
-    public static int getInt(String prompt) {
-        int integer = 0;
-        Scanner in = new Scanner(System.in);
+    public static int getIntInput(String message, Scanner in) {
+        int input;
+        boolean run;
 
-        while (true) {
-            try {
-                System.out.println(prompt);
-                integer = in.nextInt();
-                break;
-            } catch (Exception e) {
-                System.out.println("That isn't a valid input. Please try again.");
+        run = true;
+        input = 0;
+
+        while (run) {
+            System.out.println(message);
+
+            while (!in.hasNextInt()) {
+                System.out.println("That input is invalid. Input something else.");
                 in.next();
             }
+
+            input = in.nextInt();
+
+            if (input > 0) {
+                run = false;
+            }
         }
-        return integer;
+
+        return input;
     }
-
-
 }
