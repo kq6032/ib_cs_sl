@@ -228,12 +228,13 @@ public class lab5b {
     public static void primeGen(Scanner in) {
         int[] primeArray = new int[1000];
         int currentNum = 3;
+        int i = 1;
         boolean isPrime;
 
         primeArray[0] = 2;
 
         //loop for testing primes
-        for (int i = 1; i < primeArray.length; i++) {
+        while (i < primeArray.length) {
             isPrime = true;
 
             //tests the current number against the previously generated primes
@@ -243,15 +244,17 @@ public class lab5b {
                 }
             }
 
+            //moves onto next array element if the number is prime
             if (isPrime) {
                 primeArray[i] = currentNum;
+                i++;
             } else {
-                i--;
                 currentNum += 2;
                 continue;
             }
         }
 
+        //printing out the elements of the array
         for (int j : primeArray) {
             System.out.println(j);
         }
