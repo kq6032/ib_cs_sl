@@ -2,7 +2,7 @@ package com.sl1_2.lab5;
 /*
 Author: Kevin Qiu
 Class: IB Computer Science 1-2 Period 3
-Last Edited: Oct. 16, 2018
+Last Edited: Oct. 22, 2018
 */
 
 import java.util.*;

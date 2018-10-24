@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9735e35b-d4e2-426c-9e96-966ab82ab6f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/FXTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab5/lab5b.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab5/lab5b.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/FXTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/FXTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,9 +41,9 @@
     <session id="-925890253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="48" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="12" />
+          <entry key="project.open.time.10" value="13" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="1" />
@@ -53,7 +54,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="16" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,7 +62,7 @@
           <entry key="Storage" value="1" />
           <entry key="class" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="71" />
+          <entry key="java" value="72" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
@@ -69,20 +70,20 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="71" />
+          <entry key="JAVA" value="72" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="45635" />
+          <entry key="java" value="45824" />
           <entry key="md" value="5" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="45635" />
+          <entry key="JAVA" value="45824" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -106,31 +107,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5a.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+            <state relative-caret-position="2196">
+              <caret line="125" column="14" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sl1_2/FXTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="360">
+              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
               <folding>
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,14 +202,19 @@
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/Tester.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5a.java" />
-        <option value="$PROJECT_DIR$/src/com/sl1_2/FXTester.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/FXTester.java" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
+    <option name="x" value="1269" />
     <option name="width" value="1302" />
     <option name="height" value="1452" />
   </component>
@@ -223,6 +226,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,14 +279,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/kevin/Desktop/ib_cs_sl/src/com/sl1_2/lab5/lab5b.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540237395452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540241318766" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -299,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lab5b">
+  <component name="RunManager" selected="Application.FXTester">
     <configuration name="FXTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sl1_2.FXTester" />
       <module name="ib_cs_sl" />
@@ -374,8 +377,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lab5b" />
         <item itemvalue="Application.FXTester" />
+        <item itemvalue="Application.lab5b" />
         <item itemvalue="Application.lab5a" />
         <item itemvalue="Application.Tester" />
         <item itemvalue="Application.lab4" />
@@ -419,7 +422,7 @@
     <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970344" visible="true" weight="0.19205298" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970344" visible="true" weight="0.13485852" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -427,7 +430,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.4495848" side_tool="true" weight="0.217941" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36892053" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3653618" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39976275" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,14 +439,14 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977462" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32977462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Structure" order="1" sideWeight="0.50296557" visible="true" weight="0.17579772" />
+      <window_info active="true" anchor="right" id="Structure" order="1" sideWeight="0.50296557" visible="true" weight="0.23479831" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32961586" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32992172" />
       <window_info anchor="right" id="TODO" order="10" sideWeight="0.55041516" side_tool="true" weight="0.16134858" />
     </layout>
@@ -587,10 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="2104" column="15" selection-start-line="2104" selection-start-column="15" selection-end-line="2104" selection-end-column="15" />
-          <folding>
-            <element signature="e#78006#78007#0" expanded="true" />
-            <element signature="e#78050#78051#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,6 +600,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ib_cs_sl.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -610,31 +612,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5a.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ib_cs_sl.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/FXTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2196">
+          <caret line="125" column="14" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+        <state relative-caret-position="342">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="222" column="23" selection-start-line="222" selection-start-column="23" selection-end-line="222" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/FXTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
