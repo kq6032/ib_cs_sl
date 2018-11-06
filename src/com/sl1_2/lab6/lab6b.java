@@ -137,9 +137,11 @@ public class lab6b {
                     multTable[i][j] = multTable[i][0] * multTable[0][j];
                 }
 
-                //The "%-6d" formatter tells the integer to limit itself to create a string of 6 spaces
-                //Then, the integer replaces the spaces starting from the left-most digit
-                //Example: "50" would be justified to "50   "
+                /*
+                The "%-6d" formatter tells the integer to limit itself to create a string of 6 spaces
+                Then, the integer replaces the spaces starting from the left-most digit
+                Example: "50" would be justified to "50   "
+                */
                 System.out.printf("%-6d", multTable[i][j]);
             }
 
