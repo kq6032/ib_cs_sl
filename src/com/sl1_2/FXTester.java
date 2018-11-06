@@ -40,8 +40,8 @@ public class FXTester extends Application {
             }
         });
 
-        Text text1 = new Text("POGGERS");
-        Text text2 = new Text("WAW");
+        Text text1 = new Text("text1");
+        Text text2 = new Text("text2");
 
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);
