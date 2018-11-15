@@ -7,7 +7,7 @@ Last Edited: Oct. 22, 2018
 
 import java.util.*;
 
-public class lab5b {
+public class Lab5b {
 
     /**
      * basicIntInput

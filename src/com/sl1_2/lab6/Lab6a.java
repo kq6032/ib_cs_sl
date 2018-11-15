@@ -7,7 +7,7 @@ Last Edited: Oct. 18, 2018
 
 import java.util.Scanner;
 
-public class lab6a {
+public class Lab6a {
 
     /**
      * fillPrimeArray

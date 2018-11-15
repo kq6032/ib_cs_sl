@@ -9,8 +9,11 @@ import java.io.IOException;
 public class Tester {
 
     public static void main (String args[]) throws IOException {
-        int hi = 01010101;
+        String hi = "hello how are you doing";
+        String subhi = hi.substring(hi.indexOf(" "), hi.length());
 
-        System.out.print(hi);
+        System.out.println(hi);
+        System.out.println(subhi);
+        System.out.println(subhi.trim());
     }
 }

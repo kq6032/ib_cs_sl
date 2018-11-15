@@ -9,7 +9,7 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class lab4 {
+public class Lab4 {
 
     /**
      * basicIntInput

@@ -8,7 +8,7 @@ Last Edited: Nov. 6, 2018
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class lab6b {
+public class Lab6b {
 
     //Types of expected input for intInput() and doubleInput()
     public enum InputCase {

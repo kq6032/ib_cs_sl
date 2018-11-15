@@ -11,7 +11,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class lab5a {
+public class Lab5a {
 
     /**
      * ASCIIReturn()
