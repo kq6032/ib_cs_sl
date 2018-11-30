@@ -4,21 +4,10 @@
     <list default="true" id="9735e35b-d4e2-426c-9e96-966ab82ab6f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/Tester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab4/lab4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab4/lab4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab5/lab5a.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab5/lab5a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab5/lab5b.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab5/lab5b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab6/lab6a.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab6/lab6a.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab6/lab6b$InputCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab6/lab6b$InputCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab6/lab6b.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab6/lab6b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/lab7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/lab7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/Lab7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/Lab7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sl1_2/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab4/lab4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab4/Lab4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab5/Lab5a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab5/lab5b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab5/Lab5b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab6/lab6a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab6/Lab6a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab6/lab6b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab6/Lab6b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab7/lab7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,22 +43,24 @@
     <session id="-925890253">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="62" />
+          <entry key="project.closed" value="67" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="14" />
+          <entry key="project.open.time.10" value="15" />
           <entry key="project.open.time.11" value="6" />
           <entry key="project.open.time.12" value="5" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="9" />
-          <entry key="project.open.time.9" value="21" />
-          <entry key="project.opened" value="65" />
+          <entry key="project.open.time.9" value="22" />
+          <entry key="project.opened" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -77,29 +68,29 @@
           <entry key="Storage" value="1" />
           <entry key="class" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="86" />
+          <entry key="java" value="90" />
           <entry key="md" value="1" />
-          <entry key="txt" value="8" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="86" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="90" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="62733" />
+          <entry key="java" value="68497" />
           <entry key="md" value="5" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="62733" />
+          <entry key="JAVA" value="68497" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -110,55 +101,29 @@
     <favorites_list name="ib_cs_sl" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7210271">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1044">
-                  <caret line="58" selection-start-line="58" selection-end-line="58" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab6/Lab6b.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6300">
-                  <caret line="351" column="13" selection-start-line="351" selection-start-column="13" selection-end-line="351" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Tester.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/classlist.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="691">
-                  <caret line="87" column="15" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="205" column="48" lean-forward="true" selection-start-line="205" selection-start-column="48" selection-end-line="205" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Tester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -266,7 +231,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,11 +274,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/kevin/Desktop/ib_cs_sl/src/com/sl1_2/lab5/lab5b.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542143266171" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543611764987" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -333,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Challenge1">
+  <component name="RunManager" selected="Application.Lab7">
     <configuration name="Challenge1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sl1_2.Challenge1" />
       <module name="ib_cs_sl" />
@@ -408,9 +373,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Challenge1" />
         <item itemvalue="Application.Lab7" />
         <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.Challenge1" />
         <item itemvalue="Application.lab7" />
         <item itemvalue="Application.lab6b" />
       </list>
@@ -451,17 +416,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970344" visible="true" weight="0.1396749" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970344" visible="true" weight="0.17278747" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.4495848" side_tool="true" weight="0.217941" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29453683" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32858837" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.77935946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.23634204" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -663,17 +627,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/classlist.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="677">
+          <caret line="87" column="15" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab6/Lab6b.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6300">
-          <caret line="351" column="13" selection-start-line="351" selection-start-column="13" selection-end-line="351" selection-end-column="13" />
+        <state relative-caret-position="95">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -682,15 +646,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="342">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/classlist.txt">
+    <entry file="file://$PROJECT_DIR$/className.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="87" column="15" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
+        <state relative-caret-position="324">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classId.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="205" column="48" lean-forward="true" selection-start-line="205" selection-start-column="48" selection-end-line="205" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

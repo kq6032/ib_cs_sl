@@ -8,12 +8,15 @@ import java.io.IOException;
 
 public class Tester {
 
-    public static void main (String args[]) throws IOException {
-        String hi = "hello how are you doing";
-        String subhi = hi.substring(hi.indexOf(" "), hi.length());
+    public static void alex() {
+        int a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z;
 
-        System.out.println(hi);
-        System.out.println(subhi);
-        System.out.println(subhi.trim());
+        alex();
+    }
+
+    public static void main(String args[]) throws IOException {
+        /*int hi = (int) 'A';
+        System.out.print(hi);*/
+        alex();
     }
 }
