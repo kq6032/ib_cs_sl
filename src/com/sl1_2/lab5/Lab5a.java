@@ -115,8 +115,8 @@ public class Lab5a {
      */
     public static void numberAdder() throws IOException{
         //two arrays are for storing the individual digits of the entered number
-        int[] num1 = new int[6];
-        int[] num2 = new int[6];
+        int[] num1 = new int[16384];
+        int[] num2 = new int[16384];
         int input, i, j;
         int count1 = 0;
         int count2 = 0;
@@ -126,11 +126,11 @@ public class Lab5a {
         i = 0;
 
         //input for first number
-        while (i < 7) {
+        while (i < 16385) {
             input = System.in.read();
 
             //if the character is a space or an enter, it leaves the loop
-            if (input == 13 || input == 10) { i = 7; } else {
+            if (input == 13 || input == 10) { i = 16385; } else {
                 //the integer ASCII value of '0' character is subtracted from input to get integer value of input
                 num1[i] = input - (int) '0';
                 count1++;
@@ -142,11 +142,11 @@ public class Lab5a {
         j = 0;
 
         //input for second number
-        while (j < 7) {
+        while (j < 16385) {
             input = System.in.read();
 
             //if the character is a space or an enter, it leaves the loop
-            if (input == 13 || input == 10) { j = 7; } else {
+            if (input == 13 || input == 10) { j = 16385; } else {
                 //the integer ASCII value of '0' character is subtracted from input to get integer value of input
                 num2[j] = input - (int) '0';
                 count2++;
