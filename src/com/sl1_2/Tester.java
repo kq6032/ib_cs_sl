@@ -1,7 +1,42 @@
 package com.sl1_2;
 
+class Node {
+    int data;
+    Node next;
 
-import java.util.Scanner;
+    public Node(int data) {
+        this.data = data;
+    }
+}
+
+class LinkedList {
+    public Node head;
+
+    public void appendNode(int data) {
+        if (this.head == null) {
+            head = new Node(data);
+            return;
+        }
+
+        Node current = head;
+
+        while (current.next != null) {
+            current = current.next;
+        }
+
+        current.next = new Node(data);
+    }
+
+    public void printLinkedList() {
+        Node current = this.head;
+
+        while (current != null) {
+            System.out.println(current.data);
+
+            current = current.next;
+        }
+    }
+}
 
 /**
  * Tester File - All things in this file are temporary.
@@ -29,5 +64,12 @@ public class Tester {
 
         System.out.println("Breakpoint 1");
         System.out.println("Breakpoint 2");
+
+        LinkedList testList = new LinkedList();
+
+        testList.appendNode(5);
+        testList.appendNode(4);
+        testList.appendNode(3);
+        testList.printLinkedList();
     }
 }

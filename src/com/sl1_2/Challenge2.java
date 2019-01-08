@@ -7,10 +7,6 @@ import java.util.Random;
  * Find the average execution time using several iterations of sorting
  */
 public class Challenge2 {
-
-    // Size of array to sort
-    public static final int ARRAY_SIZE = 1000000;
-
     /**
      * Partitioning method for quicksort
      * Utilizes random pivot index to compare the elements
@@ -68,12 +64,40 @@ public class Challenge2 {
         }
     }
 
-    public static void heapsort(int[] array) {
+    public static void heapify(int[] array, int arraySize, int parent) {
+        int largest = parent;
+        int left = 2 * parent + 1;
+        int right = 2 * parent + 2;
 
+        if (left < arraySize && array[left] > array[largest]) {
+            largest = left;
+        }
+
+        if (right < arraySize && array[right] > array[largest]) {
+            largest = right;
+        }
+
+        if (largest != parent) {
+            int temp = array[parent];
+            array[parent] = array[largest];
+            array[largest] = temp;
+
+            heapify(array, arraySize, largest);
+        }
     }
 
-    public static void buildMaxHeap (int[] array) {
+    public static void heapsort(int[] array, int arraySize) {
+        for (int i = arraySize / 2 - 1; i >= 0; i--) {
+            heapify(array, arraySize, i);
+        }
 
+        for (int i = arraySize - 1; i >= 0; i--) {
+            int temp = array[0];
+            array[0] = array[i];
+            array[i] = temp;
+
+            heapify(array, i, 0);
+        }
     }
 
     /**
@@ -81,16 +105,19 @@ public class Challenge2 {
      * @param args
      */
     public static void main(String[] args) {
+        int arraySize = 1000000;
+        int runs = 20;
         Random rm = new Random();
 
-        int[] numbers = new int[ARRAY_SIZE];
+        int[] numbers = new int[arraySize];
         double startTime, endTime;
         double sum = 0;
-        int runs = 20;
+
+        System.out.printf("Array Size: %d\n", arraySize);
 
         for (int i = 0; i < runs; i++) {
             for (int j = 0; j < numbers.length; j++) {
-                numbers[i] = rm.nextInt();
+                numbers[j] = rm.nextInt();
             }
 
             startTime = System.nanoTime();
@@ -100,6 +127,23 @@ public class Challenge2 {
             sum += (endTime - startTime) / 1000000000;
         }
 
-        System.out.printf("Array size: %d\nAverage runtime after %d runs: %f seconds", ARRAY_SIZE, runs, sum / 20);
+        System.out.printf("Average runtime for quicksort after %d runs: %f seconds\n", runs, sum / 20);
+
+        sum = 0;
+
+        for (int i = 0; i < runs; i++) {
+            for (int j = 0; j < numbers.length; j++) {
+                numbers[j] = rm.nextInt();
+            }
+
+            startTime = System.nanoTime();
+            heapsort(numbers, arraySize);
+            endTime = System.nanoTime();
+
+            sum += (endTime - startTime) / 1000000000;
+
+        }
+
+        System.out.printf("Average runtime for heapsort after %d runs: %f seconds", runs, sum / 20);
     }
 }
