@@ -1,75 +1,57 @@
 package com.sl1_2;
 
-class Node {
-    int data;
-    Node next;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
-    public Node(int data) {
-        this.data = data;
-    }
-}
-
-class LinkedList {
-    public Node head;
-
-    public void appendNode(int data) {
-        if (this.head == null) {
-            head = new Node(data);
-            return;
-        }
-
-        Node current = head;
-
-        while (current.next != null) {
-            current = current.next;
-        }
-
-        current.next = new Node(data);
-    }
-
-    public void printLinkedList() {
-        Node current = this.head;
-
-        while (current != null) {
-            System.out.println(current.data);
-
-            current = current.next;
-        }
-    }
-}
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * Tester File - All things in this file are temporary.
  */
 
+class Team {
+    String id, name;
+
+    ArrayList<Float> npOPRc = new ArrayList<>();
+    ArrayList<Float> npOPR = new ArrayList<>();
+    ArrayList<Float> OPR = new ArrayList<>();
+
+    public Team(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+}
+
 public class Tester {
-
-    public static final double PLANCKS_CONST = 6.626 * Math.pow(10, -34);
-    public static final double LIGHT_SPEED = 3.00 * Math.pow(10, 17);
-
     public static void main(String args[]) {
-        /*double[] vals = new double[]{600, 660, 670, 630, 650, 530, 490, 570, 660, 670};
-        double freq, unc, ener;
+        Document doc = null;
 
-        for (int i = 0; i < vals.length; i++) {
-            freq = LIGHT_SPEED / vals[i];
-            unc = 10 / vals[i] * freq;
+        HashMap<String, Team> teams = new HashMap<>();
 
-//            System.out.println(i + ": " + freq + "\n\t" + unc);
+        teams.put("12599", new Team("12599", "Overcharged"));
+        teams.put("12808", new Team("12808", "ReVamped"));
+        teams.put("11089", new Team("10089", "Bytes of KitKats"));
 
-            ener = PLANCKS_CONST * freq;
-            unc = unc / freq * ener;
-            System.out.println(i + ": " + ener + "\n\t" + unc);
-        }*/
+        try {
+            doc = Jsoup.connect("http://ftcstats.org").get();
+        } catch (Exception e) {
+            System.out.println("Error: " + e.getMessage());
+        }
 
-        System.out.println("Breakpoint 1");
-        System.out.println("Breakpoint 2");
+        Elements rows = doc.select("tr");
 
-        LinkedList testList = new LinkedList();
+        for (int i = 12; i < rows.size(); i++) {
+            Element row = rows.get(i);
 
-        testList.appendNode(5);
-        testList.appendNode(4);
-        testList.appendNode(3);
-        testList.printLinkedList();
+            Elements e = row.select("td");
+            String id = e.get(1).text();
+
+            if (teams.get(id) != null) {
+
+            }
+        }
     }
 }
