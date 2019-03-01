@@ -1,4 +1,4 @@
-package com.sl1_2;
+package com.sl1_2.challenges;
 
 import java.util.Random;
 

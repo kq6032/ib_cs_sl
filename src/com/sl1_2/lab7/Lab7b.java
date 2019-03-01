@@ -7,6 +7,7 @@ Last Edited: Feb. 25, 2018
 
 import java.io.*;
 import java.util.Scanner;
+// You might have to add Student class import here since I don't know the project directory
 
 public class Lab7b {
     private static Scanner in = new Scanner(System.in);
