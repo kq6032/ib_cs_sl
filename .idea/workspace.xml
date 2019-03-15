@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9735e35b-d4e2-426c-9e96-966ab82ab6f1" name="Default Changelist" comment="Added new labs">
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -96,7 +96,7 @@
     <session id="497880045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="5" />
@@ -123,7 +123,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="43" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="1" />
         </counts>
@@ -135,7 +135,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="27995" />
+          <entry key="JAVA" value="30065" />
           <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
@@ -155,16 +155,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+            <state relative-caret-position="216">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#setColors#0;class#lab10#0" />
                 <element signature="method#setScale#0;class#lab10#0" />
                 <element signature="method#start#0;class#lab10#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,7 +195,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>263695</find>
       <find>runs</find>
       <find>RUNS</find>
       <find>arraySize</find>
@@ -212,6 +224,7 @@
       <find>btn</find>
       <find>javaBtn</find>
       <find>onOffBtn</find>
+      <find>kelField</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -292,6 +305,7 @@
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab9/qiuklab9.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java" />
       </list>
     </option>
   </component>
@@ -334,13 +348,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab7" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -349,7 +356,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="tester&#9;FILE&#9;file://C:/Users/kevin/Desktop/ib_cs_sl/src/com/sl1_2/Tester.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551996008173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552681953484" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/jsoup-1.11.3.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -368,7 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lab10">
+  <component name="RunManager" selected="Application.lab11">
     <configuration name="Challenge1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sl1_2.challenges.Challenge1" />
       <module name="ib_cs_sl" />
@@ -395,12 +402,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sl1_2.NewTester" />
+    <configuration name="lab10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab10.lab10" />
       <module name="ib_cs_sl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sl1_2.challenges.*" />
+          <option name="PATTERN" value="com.sl1_2.lab10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,12 +415,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab10.lab10" />
+    <configuration name="lab11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab11.lab11" />
       <module name="ib_cs_sl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sl1_2.lab10.*" />
+          <option name="PATTERN" value="com.sl1_2.lab11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,19 +442,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.NewTester" />
       <item itemvalue="Application.Lab7b" />
       <item itemvalue="Application.Challenge1" />
       <item itemvalue="Application.lab9" />
       <item itemvalue="Application.lab10" />
+      <item itemvalue="Application.lab11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab11" />
         <item itemvalue="Application.lab10" />
         <item itemvalue="Application.lab9" />
         <item itemvalue="Application.Lab7b" />
         <item itemvalue="Application.Challenge1" />
-        <item itemvalue="Application.NewTester" />
       </list>
     </recent_temporary>
   </component>
@@ -566,20 +573,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab1/Shapes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab1/CircFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab1/GasUseCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -831,15 +824,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+        <state relative-caret-position="216">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#setColors#0;class#lab10#0" />
             <element signature="method#setScale#0;class#lab10#0" />
             <element signature="method#start#0;class#lab10#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
           </folding>
         </state>
       </provider>
