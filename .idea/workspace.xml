@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9735e35b-d4e2-426c-9e96-966ab82ab6f1" name="Default Changelist" comment="Added new labs">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/Challenge1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/Challenge2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/Lab7b.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab7/Lab7b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/utility/utilities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/Challenge1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/Challenge2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7b.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,21 +96,23 @@
     <session id="497880045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="4" />
-          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -129,7 +123,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="41" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="1" />
         </counts>
@@ -141,7 +135,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25468" />
+          <entry key="JAVA" value="27995" />
           <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
@@ -152,31 +146,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#1005#1006#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab8/lab8.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="223" column="21" lean-forward="true" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+            <state relative-caret-position="504">
+              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
               <folding>
-                <element signature="method#partition#0;class#lab8#0" />
-                <element signature="method#quicksort#0;class#lab8#0" />
-                <element signature="method#smallestNum#0;class#lab8#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#setColors#0;class#lab10#0" />
+                <element signature="method#setScale#0;class#lab10#0" />
+                <element signature="method#start#0;class#lab10#0" />
               </folding>
             </state>
           </provider>
@@ -194,7 +182,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>input an even</find>
       <find>263695</find>
       <find>runs</find>
       <find>RUNS</find>
@@ -224,6 +211,7 @@
       <find>readLine</find>
       <find>btn</find>
       <find>javaBtn</find>
+      <find>onOffBtn</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -241,6 +229,7 @@
       <replace>j</replace>
       <replace>javaBtn</replace>
       <replace>onOffBtn</replace>
+      <replace>scaleBtn</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -302,6 +291,7 @@
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab7/Student.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab9/qiuklab9.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java" />
       </list>
     </option>
   </component>
@@ -311,10 +301,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1270" />
-    <option name="width" value="1301" />
-    <option name="height" value="1451" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1269" />
+    <option name="width" value="1302" />
+    <option name="height" value="1452" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -324,6 +314,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,26 +339,17 @@
               <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab9" type="462c0819:PsiDirectoryNode" />
+              <item name="lab7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="tester&#9;FILE&#9;file://C:/Users/kevin/Desktop/ib_cs_sl/src/com/sl1_2/Tester.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551475677168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551996008173" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/jsoup-1.11.3.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -385,7 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lab9">
+  <component name="RunManager" selected="Application.lab10">
     <configuration name="Challenge1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sl1_2.challenges.Challenge1" />
       <module name="ib_cs_sl" />
@@ -425,12 +408,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sl1_2.Tester" />
+    <configuration name="lab10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sl1_2.lab10.lab10" />
       <module name="ib_cs_sl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sl1_2.challenges.*" />
+          <option name="PATTERN" value="com.sl1_2.lab10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,19 +435,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Tester" />
       <item itemvalue="Application.NewTester" />
       <item itemvalue="Application.Lab7b" />
       <item itemvalue="Application.Challenge1" />
       <item itemvalue="Application.lab9" />
+      <item itemvalue="Application.lab10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab10" />
         <item itemvalue="Application.lab9" />
         <item itemvalue="Application.Lab7b" />
         <item itemvalue="Application.Challenge1" />
         <item itemvalue="Application.NewTester" />
-        <item itemvalue="Application.Tester" />
       </list>
     </recent_temporary>
   </component>
@@ -509,10 +492,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="847" y="0" width="867" height="967" extended-state="0" />
+    <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4970344" visible="true" weight="0.3370508" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970344" visible="true" weight="0.17880794" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -520,7 +503,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.4495848" side_tool="true" weight="0.217941" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32858837" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.66706586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6666667" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4128114" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -583,7 +566,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/code/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab1/Shapes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -640,13 +622,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab2/EvenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab2/EvenTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab3/TriangleSideCalc.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab2/MultipleTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -798,13 +774,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello.hi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.hi" />
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -813,26 +783,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/utility/utilities.java" />
-    <entry file="file://$PROJECT_DIR$/hahaha.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hahaha.txt" />
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="docComment;method#Student#0;class#Student#0" />
-            <element signature="docComment;method#getId#0;class#Student#0" />
-            <element signature="docComment;method#setId#0;class#Student#0" />
-            <element signature="docComment;method#getGrade#0;class#Student#0" />
-            <element signature="docComment;method#setGrade#0;class#Student#0" />
-            <element signature="docComment;method#getLastName#0;class#Student#0" />
-            <element signature="docComment;method#setLastName#0;class#Student#0" />
-            <element signature="docComment;method#getFirstName#0;class#Student#0" />
-            <element signature="docComment;method#setFirstName#0;class#Student#0" />
-            <element signature="docComment;method#getGender#0;class#Student#0" />
-            <element signature="docComment;method#setGender#0;class#Student#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,35 +805,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7b.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getIntInput#0;class#Lab7b#0" />
-            <element signature="method#readFile#0;class#Lab7b#0" />
-            <element signature="method#printStudentInfo#0;class#Lab7b#0" />
-            <element signature="method#getStudent#0;class#Lab7b#0" />
-            <element signature="method#findStudent#0;class#Lab7b#0" />
-            <element signature="method#findStudent#1;class#Lab7b#0" />
-            <element signature="method#removeStudent#0;class#Lab7b#0" />
-            <element signature="method#addStudent#0;class#Lab7b#0" />
-            <element signature="method#rearrageStudents#0;class#Lab7b#0" />
-            <element signature="method#sortStudentsName#0;class#Lab7b#0" />
-            <element signature="method#sortStudentsID#0;class#Lab7b#0" />
-            <element signature="method#serializeStudents#0;class#Lab7b#0" />
-            <element signature="method#deserializeStudents#0;class#Lab7b#0" />
-            <element signature="method#printStats#0;class#Lab7b#0" />
-            <element signature="method#main#0;class#Lab7b#0" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab8/lab8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="223" column="21" lean-forward="true" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+        <state relative-caret-position="3096">
+          <caret line="223" column="21" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
           <folding>
             <element signature="method#partition#0;class#lab8#0" />
             <element signature="method#quicksort#0;class#lab8#0" />
@@ -887,16 +824,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab7/Lab7b.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="180">
+          <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="method#setColors#0;class#lab10#0" />
+            <element signature="method#setScale#0;class#lab10#0" />
+            <element signature="method#start#0;class#lab10#0" />
           </folding>
         </state>
       </provider>
