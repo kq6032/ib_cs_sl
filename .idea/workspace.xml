@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9735e35b-d4e2-426c-9e96-966ab82ab6f1" name="Default Changelist" comment="Added new labs">
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,11 +96,11 @@
     <session id="497880045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="5" />
-          <entry key="project.open.time.12" value="4" />
+          <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
@@ -112,7 +112,7 @@
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -123,7 +123,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="44" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="1" />
         </counts>
@@ -135,7 +135,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30065" />
+          <entry key="JAVA" value="30815" />
           <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
@@ -155,29 +155,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="method#setColors#0;class#lab10#0" />
-                <element signature="method#setScale#0;class#lab10#0" />
-                <element signature="method#start#0;class#lab10#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="171">
+              <caret line="123" column="47" lean-forward="true" selection-start-line="123" selection-start-column="47" selection-end-line="123" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#553#554#0" expanded="true" />
                 <element signature="e#593#594#0" expanded="true" />
+                <element signature="method#setColors#0;class#lab10#0" />
+                <element signature="method#setScale#0;class#lab10#0" />
               </folding>
             </state>
           </provider>
@@ -304,8 +292,8 @@
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab7/Student.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab9/qiuklab9.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java" />
-        <option value="$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java" />
       </list>
     </option>
   </component>
@@ -328,8 +316,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,6 +335,13 @@
               <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -442,11 +437,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Lab7b" />
       <item itemvalue="Application.Challenge1" />
-      <item itemvalue="Application.lab9" />
+      <item itemvalue="Application.Lab7b" />
       <item itemvalue="Application.lab10" />
       <item itemvalue="Application.lab11" />
+      <item itemvalue="Application.lab9" />
     </list>
     <recent_temporary>
       <list>
@@ -500,9 +495,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970344" visible="true" weight="0.17880794" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4970344" visible="true" weight="0.18362433" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -515,7 +509,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32977462" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32977462" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.32977462" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977462" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3245509" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -798,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab8/lab8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3096">
@@ -824,33 +811,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab11.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab11.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="-504">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="method#setColors#0;class#lab10#0" />
-            <element signature="method#setScale#0;class#lab10#0" />
-            <element signature="method#start#0;class#lab10#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="171">
+          <caret line="123" column="47" lean-forward="true" selection-start-line="123" selection-start-column="47" selection-end-line="123" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
             <element signature="e#593#594#0" expanded="true" />
+            <element signature="method#setColors#0;class#lab10#0" />
+            <element signature="method#setScale#0;class#lab10#0" />
           </folding>
         </state>
       </provider>

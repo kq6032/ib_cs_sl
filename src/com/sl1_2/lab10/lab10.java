@@ -23,6 +23,10 @@ public class lab10 extends Application {
         Application.launch(args);
     }
 
+    /**
+     * Set the colors of all shapes to a specified color
+     * @param clr The color to set all the shapes to
+     */
     public static void setColors(Color clr, Circle cl, Line ln, Rectangle fillRect, Rectangle empRect, Ellipse el, Text tx) {
         cl.setStroke(clr);
         ln.setStroke(clr);
@@ -34,6 +38,11 @@ public class lab10 extends Application {
         tx.setStroke(clr);
     }
 
+    /**
+     * Set the scale of all shapes to a specific amount
+     * This is also used to set the initial position of all the shapes
+     * @param scale The scale to set all the shapes to
+     */
     public static void setScale(float scale, Circle cl, Line ln, Rectangle fillRect, Rectangle empRect, Ellipse el, Text tx) {
         cl.setCenterX(200f * scale);
         cl.setCenterY(200 * scale);
@@ -71,6 +80,7 @@ public class lab10 extends Application {
 
         primaryStage.setTitle("Kevin's Lab 10");
 
+        // Initializing the shapes and adding them to the window
         Circle cl = new Circle();
         cl.setFill(Color.WHITE);
         root.getChildren().add(cl);
@@ -92,9 +102,11 @@ public class lab10 extends Application {
         tx.setFont(new Font(20));
         root.getChildren().add(tx);
 
+        // Setting initial positions, scale, and shape of all the shapes
         setScale(1f, cl, ln, fillRec, empRect, el, tx);
         setColors(Color.BLACK, cl, ln, fillRec, empRect, el, tx);
 
+        // The button for changing the color
         Button colorBtn = new Button();
         colorBtn.setLayoutX(115);
         colorBtn.setLayoutY(350);
@@ -102,6 +114,7 @@ public class lab10 extends Application {
         colorBtn.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
+                // A counter is incremented to change the color of the shapes
                 colorCounter++;
 
                 if (colorCounter == 1) {
@@ -111,6 +124,7 @@ public class lab10 extends Application {
                 } else if (colorCounter == 3) {
                     setColors(Color.GREEN, cl, ln, fillRec, empRect, el, tx);
                 } else {
+                    // Once the counter reaches 4, it resets back to 0 and changes to default color
                     colorCounter = 0;
                     setColors(Color.BLACK, cl, ln, fillRec, empRect, el, tx);
                 }
@@ -118,6 +132,7 @@ public class lab10 extends Application {
         });
         root.getChildren().add(colorBtn);
 
+        // The button for changing the scale
         Button scaleBtn = new Button();
         scaleBtn.setLayoutX(215);
         scaleBtn.setLayoutY(350);
@@ -125,6 +140,7 @@ public class lab10 extends Application {
         scaleBtn.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
+                // A counter is incremented to change the scale of the shapes
                 scaleCounter++;
 
                 if (scaleCounter == 1) {
@@ -132,6 +148,7 @@ public class lab10 extends Application {
                 } else if (scaleCounter == 2) {
                     setScale(0.5f, cl, ln, fillRec, empRect, el, tx);
                 } else {
+                    // Once the counter reaches 3, it resets back to 0 and changes to default shape
                     scaleCounter = 0;
                     setScale(1f, cl, ln, fillRec, empRect, el, tx);
                 }
