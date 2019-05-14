@@ -27,7 +27,9 @@ public class Challenge1 {
         for (int i = 0; i < set.length; i++) {
             if (place != 9 && i == 0) {
                 continue;
-            } if (place != 4 && i == 5) {
+            }
+
+            if (place != 4 && i == 5) {
                 continue;
             }
 
@@ -36,6 +38,7 @@ public class Challenge1 {
             }
 
             currentNum = "";
+
             if (place != 0) {
                 currentNum = "";
                 for (int k = 0; k < place; k++) {
