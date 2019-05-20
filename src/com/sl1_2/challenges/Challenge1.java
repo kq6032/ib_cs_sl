@@ -3,7 +3,6 @@ package com.sl1_2.challenges;
 // beat 1351 attempts
 
 public class Challenge1 {
-
     static int attemptNum =  0;
     static final int[] NUMBER_LIST = new int[]{1, 2, 3, 4, 5, 6, 7, 8 , 9, 10};
 
@@ -24,6 +23,7 @@ public class Challenge1 {
         }
 
         String currentNum = "";
+
         for (int i = 0; i < set.length; i++) {
             if (place != 9 && i == 0) {
                 continue;

@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9735e35b-d4e2-426c-9e96-966ab82ab6f1" name="Default Changelist" comment="Added new labs">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab12/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab12/lab12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sl1_2/lab13/lab13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/challenges/Challenge1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/challenges/Challenge1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab10/lab10$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab10/lab10$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab10/lab10$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab10/lab10$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab10/lab10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab10/lab10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ib_cs_sl/com/sl1_2/lab13/lab13.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sl1_2/lab13/lab13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sl1_2/lab13/lab13.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,29 +31,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab13/lab13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+            <state relative-caret-position="306">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding>
+                <element signature="docComment;method#main#0;class#lab13#0" />
+                <element signature="docComment;method#drawBars#0;class#lab13#0" />
                 <element signature="method#drawBars#0;class#lab13#0" />
-                <element signature="method#drawUpc#0;class#lab13#0" />
-                <element signature="method#displayUpc#0;class#lab13#0" />
+                <element signature="docComment;method#drawText#0;class#lab13#0" />
+                <element signature="method#drawText#0;class#lab13#0" />
+                <element signature="docComment;method#drawCode#0;class#lab13#0" />
+                <element signature="method#drawCode#0;class#lab13#0" />
+                <element signature="docComment;method#displayCode#0;class#lab13#0" />
+                <element signature="method#displayCode#0;class#lab13#0" />
+                <element signature="docComment;method#upcScene#0;class#lab13#0" />
                 <element signature="method#upcScene#0;class#lab13#0" />
+                <element signature="docComment;method#isbnScene#0;class#lab13#0" />
+                <element signature="method#isbnScene#0;class#lab13#0" />
+                <element signature="docComment;method#start#0;class#lab13#0" />
                 <element signature="method#start#0;class#lab13#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab12/lab12.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#updateValues#0;class#lab12#0" />
-                <element signature="method#importExportStudents#0;class#lab12#0" />
-                <element signature="method#showStats#0;class#lab12#0" />
               </folding>
             </state>
           </provider>
@@ -71,10 +66,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add</find>
-      <find>print student</find>
-      <find>i + 1</find>
-      <find>i</find>
       <find>readLine</find>
       <find>btn</find>
       <find>javaBtn</find>
@@ -101,6 +92,10 @@
       <find>choicebox</find>
       <find>};</find>
       <find>);</find>
+      <find>drawUpc</find>
+      <find>upcCode</find>
+      <find>displayUpc</find>
+      <find>system.out.println</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -121,6 +116,9 @@
       <replace>scaleBtn</replace>
       <replace>mainMenu</replace>
       <replace>Student</replace>
+      <replace>drawCode</replace>
+      <replace>isbnCode</replace>
+      <replace>displayCode</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -181,9 +179,9 @@
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab12/Student.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab11/lab11.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab12/Lab7b.java" />
-        <option value="$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge1.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab12/lab12.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab10/lab10.java" />
+        <option value="$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge1.java" />
         <option value="$PROJECT_DIR$/src/com/sl1_2/lab13/lab13.java" />
       </list>
     </option>
@@ -195,8 +193,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1077" />
-    <option name="width" value="1494" />
+    <option name="x" value="1269" />
+    <option name="width" value="1302" />
     <option name="height" value="1452" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -207,7 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -239,58 +236,24 @@
               <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ib_cs_sl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ib_cs_sl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sl1_2" type="462c0819:PsiDirectoryNode" />
-              <item name="lab12" type="462c0819:PsiDirectoryNode" />
+              <item name="lab13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="tester&#9;FILE&#9;file://C:/Users/kevin/Desktop/ib_cs_sl/src/com/sl1_2/Tester.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556855015334" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558382958893" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/jsoup-1.11.3.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -437,24 +400,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="975" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49228945" visible="true" weight="0.22877784" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48982036" visible="true" weight="0.21372667" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.4495848" side_tool="true" weight="0.217941" />
-      <window_info id="Structure" order="6" sideWeight="0.5077106" side_tool="true" visible="true" weight="0.22877784" />
+      <window_info id="Structure" order="6" sideWeight="0.5095694" side_tool="true" weight="0.40520447" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32858837" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32740214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11743772" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4128114" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32977462" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32977462" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977462" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32977462" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32384342" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
@@ -733,20 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1800">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab9/lab9.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -781,29 +729,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab13/lab13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
-          <folding>
-            <element signature="method#drawBars#0;class#lab13#0" />
-            <element signature="method#drawUpc#0;class#lab13#0" />
-            <element signature="method#displayUpc#0;class#lab13#0" />
-            <element signature="method#upcScene#0;class#lab13#0" />
-            <element signature="method#start#0;class#lab13#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab12/lab12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
+        <state relative-caret-position="-2220">
           <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#updateValues#0;class#lab12#0" />
             <element signature="method#importExportStudents#0;class#lab12#0" />
             <element signature="method#showStats#0;class#lab12#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1770">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/challenges/Challenge1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sl1_2/lab13/lab13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="docComment;method#main#0;class#lab13#0" />
+            <element signature="docComment;method#drawBars#0;class#lab13#0" />
+            <element signature="method#drawBars#0;class#lab13#0" />
+            <element signature="docComment;method#drawText#0;class#lab13#0" />
+            <element signature="method#drawText#0;class#lab13#0" />
+            <element signature="docComment;method#drawCode#0;class#lab13#0" />
+            <element signature="method#drawCode#0;class#lab13#0" />
+            <element signature="docComment;method#displayCode#0;class#lab13#0" />
+            <element signature="method#displayCode#0;class#lab13#0" />
+            <element signature="docComment;method#upcScene#0;class#lab13#0" />
+            <element signature="method#upcScene#0;class#lab13#0" />
+            <element signature="docComment;method#isbnScene#0;class#lab13#0" />
+            <element signature="method#isbnScene#0;class#lab13#0" />
+            <element signature="docComment;method#start#0;class#lab13#0" />
+            <element signature="method#start#0;class#lab13#0" />
           </folding>
         </state>
       </provider>
